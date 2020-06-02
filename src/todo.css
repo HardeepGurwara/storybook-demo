@@ -1,0 +1,21 @@
+.todo {
+  width: 100%;
+}
+.todo__header {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+@media (max-width: 320px) {
+  .todo {
+    font-size: xx-small;
+    padding: 5px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .todo {
+    margin: 5px;
+  }
+}
